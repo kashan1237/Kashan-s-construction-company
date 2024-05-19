@@ -1,0 +1,260 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.bg-blue {
+    background-color: #159fe8;
+}
+
+.text-blue {
+    color: #159fe8;
+}
+
+.bg-gray {
+    background-color: #353535;
+}
+
+.button-orange {
+    background-color: #e37311;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+
+.text-12px {
+    font-size: 12px;
+}
+
+.text-20px {
+    font-size: 20px;
+}
+
+.text-40px {
+    font-size: 40px;
+}
+
+.text-30px {
+    font-size: 30px;
+}
+
+.nav ul li {
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
+.service {
+    background-color: #f1f5f6;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    top: -50px;
+    z-index: -10;
+}
+
+.service-outer:hover .service {
+    color: white;
+    background-color: #159fe8;
+}
+
+.service-logo {
+    border-radius: 1000px;
+    border: 2px solid #f1f5f6;
+    top: -25%;
+    left: 33%;
+    background-color: #3e3e3e;
+}
+
+.service-outer:hover .service-logo {
+    background-color: #159fe8;
+    border: 2px solid #f1f5f6;
+
+}
+
+.service-card {
+    padding-top: 80px;
+}
+
+.service button {
+    background-color: #159fe8;
+    color: white;
+}
+
+.service-outer:hover .service button {
+    background-color: white;
+    color: #159fe8;
+}
+
+.mg-bottom {
+    margin-bottom: 50px;
+}
+
+.bg-course {
+    width: 100%;
+    height: 700px;
+    background-image: url("../images/sunset.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-gallery {
+    width: 100%;
+    background-image: url("../images/sunset.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.course {
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 5px;
+}
+
+.course:hover {
+    color: white;
+    background-color: #159fe8;
+}
+
+.course-logo {
+    background-color: #f1f5f6;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course button {
+    background-color: #159fe8;
+    color: white;
+}
+
+.course:hover button {
+    background-color: white;
+    color: #159fe8;
+}
+
+
+.small-text {
+    font-size: 12px;
+}
+
+.text-12px {
+    font-size: 12px;
+}
+
+.profile{
+    width: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 120px;
+    }
+
+    .bg-course {
+        height: 100%;
+    }
+}
